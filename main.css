@@ -1,0 +1,44 @@
+body {
+  background: #eee;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.click-me {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  background: orange;
+  color: black;
+  text-decoration: none;
+  box-shadow: 5px 5px grey;
+
+  margin: 0 0 3px 0;
+}
+
+.click-me:hover {
+  margin: 3px 0 0 3px;
+  box-shadow: 2px 2px grey;
+}
+
+.toll {
+  border: 1px solid grey;
+  box-shadow: 5px 5px grey;
+  border-radius: 10px;
+  margin: 50px 30px;
+  padding: 10px;
+}
+
+.toll:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
